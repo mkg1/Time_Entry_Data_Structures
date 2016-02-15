@@ -6,8 +6,7 @@ class TimeEntryMigration < ActiveRecord::Migration
       t.integer :developer_id
       t.integer :projet_id
       t.date :day
-      t.datetime :start_time
-      t.datetime :end_time
+      t.decimal :time
     end
   end
 end
